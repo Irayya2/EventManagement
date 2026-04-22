@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* ── Primary Palette (Teal / Cyan) ── */
+  --primary: #0d9488;          /* teal-600 */
+  --primary-light: #14b8a6;    /* teal-500 */
+  --primary-dark: #0f766e;     /* teal-700 */
+  --primary-50: #f0fdfa;
+  --primary-100: #ccfbf1;
+  --primary-200: #99f6e4;
+
+  /* ── Accent (Cyan) ── */
+  --accent: #06b6d4;           /* cyan-500 */
+  --accent-light: #22d3ee;     /* cyan-400 */
+  --accent-dark: #0891b2;      /* cyan-600 */
+
+  /* ── Secondary (Emerald for success/money) ── */
+  --secondary: #10b981;        /* emerald-500 */
+  --secondary-light: #34d399;  /* emerald-400 */
+
+  /* ── Warm Accent (Amber) ── */
+  --warm: #f59e0b;             /* amber-500 */
+  --warm-light: #fbbf24;       /* amber-400 */
+
+  /* ── Surfaces ── */
+  --surface: #ffffff;
+  --surface-alt: #f8fafc;      /* slate-50 */
+  --border: #e2e8f0;           /* slate-200 */
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
